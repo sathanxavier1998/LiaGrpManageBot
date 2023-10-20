@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv("config.env" if os.path.isfile("config.env") else "sample_config.env")
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN', "2003104605:AAEuBiBNsZQz7e9qBE2EGxG8yoEILtIf_44")
-API_ID = int(os.environ.get('API_ID', "6620972"))
+API_ID = int(os.environ.get('API_ID', 6620972))
 SESSION_STRING = os.environ.get('SESSION_STRING', 'BQBlBywARkI7254FGPuJS56_htSYkZEjqD2D7pQYWGGxqNHBj05lNJqAa-w7s2KRzKKGVHXmvN9Rfp_r3bp55z6YZDzxsqZNXgRFnztazl8ORGC4v-eDXsxHRqtXvWMDxsrKNyVIZOIPkDeDWRSOt-h5qcpmrCGER-S3fK9o-0OhxGViVx6OO8tNeJeMK5BmgGgPOEFWL_pYER_axEqMTRMRC0T_UDKQXtIzMmsRIZmtzFrXE_LGd6Yhy6yR0ivuOrcUTnfQshrE2ztf23eZPlHeMr28U7ZGOQd07PYs67tWUmIHL9-Fvlp8gSx8UFEAKgABfgtjsL_GzgWzhj6RkB12Ck97SgAAAABoA08GAA')
 API_HASH = os.environ.get('API_HASH', "3f6835286b03e000ab6d71b37cc35b92")
 USERBOT_PREFIX = os.environ.get('USERBOT_PREFIX', '.')
